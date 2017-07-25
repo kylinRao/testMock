@@ -25,7 +25,7 @@ SECRET_KEY = 'h)nelk8fgp^lv(doof2$5_hcr+*n#kn-6_skt*4h$(vd)f6@bq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','0.0.0.0','192.168.1.107']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mockapp',
 ]
 
 MIDDLEWARE = [
@@ -69,7 +70,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'testMock.wsgi.application'
-
+APPEND_SLASH = False
+#CSRF_COOKIE_SECURE = False
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
