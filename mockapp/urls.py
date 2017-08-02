@@ -4,6 +4,7 @@ import  views
 
 
 urlpatterns = [
-    url(r'^', views.mock),
+    url(r'^api', views.api),
+    url(r'^getReq', views.getReq),
 
 ]

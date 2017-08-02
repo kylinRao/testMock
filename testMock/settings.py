@@ -71,7 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'testMock.wsgi.application'
-APPEND_SLASH = False
+APPEND_SLASH = True
 #CSRF_COOKIE_SECURE = False
 
 # Database
