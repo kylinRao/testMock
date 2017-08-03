@@ -11,5 +11,8 @@ resList = {
 }
 
 requestDic={}
+
+
+
 #参数关键字配置，建议加上等号以避免匹配错误
 keyPara="key="
